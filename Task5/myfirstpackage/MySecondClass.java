@@ -1,31 +1,31 @@
 package myfirstpackage;
 
 public class MySecondClass {
-    private int firstValue;
-    private int secondValue;
+    private int num1;
+    private int num2;
     
-    public MySecondClass(int firstValue, int secondValue) {
-        this.firstValue = firstValue;
-        this.secondValue = secondValue;
+    public MySecondClass(int num1, int num2) {
+        this.num1 = num1;
+        this.num2 = num2;
     }
     
-    public int getFirstValue() {
-        return firstValue;
+    public int getNum1() {
+        return num1;
     }
     
-    public void setFirstValue(int firstValue) {
-        this.firstValue = firstValue;
+    public void setNum1(int num1) {
+        this.num1 = num1;
     }
     
-    public int getSecondValue() {
-        return secondValue;
+    public int getNum2() {
+        return num2;
     }
     
-    public void setSecondValue(int secondValue) {
-        this.secondValue = secondValue;
+    public void setNum2(int num2) {
+        this.num2 = num2;
     }
     
     public int multiply() {
-        return firstValue * secondValue;
+        return num1 * num2;
     }
 }

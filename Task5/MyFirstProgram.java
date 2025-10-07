@@ -6,8 +6,8 @@ class MyFirstClass {
         int i, j;
         for (i = 1; i <= 8; i++) {
             for(j = 1; j <= 8; j++) {
-                o.setFirstValue(i);
-                o.setSecondValue(j);
+                o.setNum1(i);
+                o.setNum2(j);
                 System.out.print(o.multiply());
                 System.out.print(" ");
             }
